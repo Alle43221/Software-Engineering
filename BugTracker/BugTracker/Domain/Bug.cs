@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BugTracker.Domain
 {
@@ -8,8 +10,13 @@ namespace BugTracker.Domain
         Closed
     }
 
+    [Table("Bug")]
     public class Bug : Entity<int>
+
     {
+        [Key]
+        public override int Id { get; set; }
+
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedAt { get; set; }

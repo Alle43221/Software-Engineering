@@ -23,5 +23,17 @@ namespace BugTracker.Repository
 		{
 			return ConnectionFactory.getInstance().createConnection(props);
 		}
-	}
+
+        public static string GetConnectionString(IDictionary<string, string> props)
+        {
+            // Example: Assuming the connection string is passed in props dictionary
+            if (props.ContainsKey("ConnectionString"))
+            {
+                return props["ConnectionString"];
+            }
+            throw new Exception("Connection string not found in provided properties.");
+        }
+
+
+    }
 }

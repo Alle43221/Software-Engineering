@@ -70,7 +70,7 @@ namespace BugTracker.Service
                 };
 
                 var result = userRepository.Save(user);
-                if (result != null)
+                if (result == null)
                 {
                     throw new InvalidOperationException("User creation failed or user already exists.");
                 }
@@ -93,7 +93,7 @@ namespace BugTracker.Service
                 };
 
                 var result = bugRepository.Save(bug);
-                if (result != null)
+                if (result.Id == null)
                 {
                     throw new InvalidOperationException("Bug creation failed or bug already exists.");
                 }
@@ -118,7 +118,7 @@ namespace BugTracker.Service
 
                 bug.Status = BugStatus.Closed;
                 var updateResult = bugRepository.Update(bug);
-                if (updateResult != null)
+                if (updateResult.Status!=BugStatus.Closed)
                 {
                     throw new InvalidOperationException("Failed to update the bug.");
                 }

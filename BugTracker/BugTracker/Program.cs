@@ -41,8 +41,10 @@ namespace BugTracker
 
             log.Info("Application started");
 
-            IUserRepository uR = new UserDbRepository(props);
-            IBugRepository bR = new BugDbRepository(props);
+            //IUserRepository uR = new UserDbRepository(props);
+            IUserRepository uR = new UserRepoORM(props);
+            //IBugRepository bR = new BugDbRepository(props);
+            IBugRepository bR = new BugRepoORM(props);
 
             Service.MyService service = new MyService(bR, uR);
 

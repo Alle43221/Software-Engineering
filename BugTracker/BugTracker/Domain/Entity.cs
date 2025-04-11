@@ -3,6 +3,6 @@ namespace BugTracker.Domain
 {
     public class Entity<ID>
     {
-        public ID Id { get; set; }
+        public virtual ID Id { get; set; }
     }
 }

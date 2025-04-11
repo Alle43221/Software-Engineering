@@ -100,3 +100,7 @@ C:\Users\Alle\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.csproj.Cor
 C:\Users\Alle\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.csproj.Up2Date
 C:\Users\Alle\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.exe
 C:\Users\Alle\source\repos\BugTracker\BugTracker\obj\Debug\BugTracker.pdb
+C:\Users\Alle\source\repos\BugTracker\BugTracker\bin\Debug\EntityFramework.dll
+C:\Users\Alle\source\repos\BugTracker\BugTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alle\source\repos\BugTracker\BugTracker\bin\Debug\EntityFramework.xml
+C:\Users\Alle\source\repos\BugTracker\BugTracker\bin\Debug\EntityFramework.SqlServer.xml

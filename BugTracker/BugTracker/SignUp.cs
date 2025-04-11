@@ -21,7 +21,7 @@ namespace BugTracker
         private static readonly ILog log = LogManager.GetLogger(typeof(Program));
         MyService service;
 
-        private void label5_Click(object sender, EventArgs e)
+        private void OpenLogInWindow(object sender, EventArgs e)
         {
             this.Hide();
             using (LogIn loginForm = new LogIn(service))
@@ -31,7 +31,7 @@ namespace BugTracker
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void SignUpClick(object sender, EventArgs e)
         {
             log.Info("Trying to sign up new user");
 
