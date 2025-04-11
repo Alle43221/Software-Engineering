@@ -180,6 +180,7 @@
     <Compile Include="Domain\Bug.cs" />
     <Compile Include="Domain\Entity.cs" />
     <Compile Include="Domain\User.cs" />
+    <Compile Include="IBugObserver.cs" />
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>

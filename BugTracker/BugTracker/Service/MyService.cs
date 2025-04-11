@@ -9,15 +9,35 @@ namespace BugTracker.Service
         {
             private readonly IBugRepository bugRepository;
             private readonly IUserRepository userRepository;
+            private readonly List<IBugObserver> observers = new();
 
-            public MyService(IBugRepository bugRepository, IUserRepository userRepository)
+        public MyService(IBugRepository bugRepository, IUserRepository userRepository)
             {
                 this.bugRepository = bugRepository;
                 this.userRepository = userRepository;
             }
 
-            // Fetch all bugs
-            public IEnumerable<Bug> GetAllBugs()
+        public void AddObserver(IBugObserver observer)
+        {
+            observers.Add(observer);
+        }
+
+        public void RemoveObserver(IBugObserver observer)
+        {
+            observers.Remove(observer);
+        }
+
+        private void NotifyObservers()
+        {
+            var bugs = bugRepository.FindAll();
+            foreach (var observer in observers)
+            {
+                observer.OnBugListChanged(bugs);
+            }
+        }
+
+        // Fetch all bugs
+        public IEnumerable<Bug> GetAllBugs()
             {
                 return bugRepository.FindAll();
             }
@@ -78,7 +98,9 @@ namespace BugTracker.Service
                     throw new InvalidOperationException("Bug creation failed or bug already exists.");
                 }
 
-                return bug;
+            NotifyObservers();
+
+            return bug;
             }
 
             // Set a bug as closed.
@@ -100,8 +122,11 @@ namespace BugTracker.Service
                 {
                     throw new InvalidOperationException("Failed to update the bug.");
                 }
+                // Notify observers about the bug list change.
+                NotifyObservers();
+                // Return the updated bug.
 
-                return bug;
+            return bug;
             }
 
             public User? GetUserByUsername(string username)

@@ -3,30 +3,26 @@ using BugTracker.Service;
 using log4net;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BugTracker
 {
-    public partial class BugTrackerClose : Form
+    public partial class BugTrackerClose : Form, IBugObserver
     {
         public BugTrackerClose(MyService service)
         {
             this.service = service;
+            service.AddObserver(this);
             InitializeComponent();
-            loadBugs();
+            loadBugs(service.GetAllBugs());
         }
         private static readonly ILog log = LogManager.GetLogger(typeof(Program));
         MyService service;
 
-        private void loadBugs()
+        private void loadBugs(IEnumerable<Bug> bugs)
         {
-            dataGridView1.DataSource = service.GetAllBugs().ToList();
+            dataGridView1.DataSource = bugs;
             dataGridView1.Columns["Id"].Visible = false;
             dataGridView1.Columns["Status"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
             dataGridView1.Columns["Title"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
@@ -36,7 +32,7 @@ namespace BugTracker
             dataGridView1.ReadOnly = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CloseBugClick(object sender, EventArgs e)
         {
             // Ensure that a row is selected in the DataGridView
             if (dataGridView1.SelectedRows.Count !=1 )
@@ -61,9 +57,6 @@ namespace BugTracker
 
                 // Call the service to update the bug's status to "Closed"
                 var closedBug = service.CloseBug(selectedBugId);
-
-                // Refresh the DataGridView to show the updated bug list
-                loadBugs();
 
                 // Show success message
                 MessageBox.Show($"Bug '{closedBug.Title}' has been closed.", "Bug Closed", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -96,7 +89,7 @@ namespace BugTracker
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void LogoutClick(object sender, EventArgs e)
         {
             service.LogOut();
             this.Hide();
@@ -105,6 +98,11 @@ namespace BugTracker
                 loginForm.ShowDialog();
             }
             this.Close();
+        }
+
+        void IBugObserver.OnBugListChanged(IEnumerable<Bug> bugs)
+        {
+            loadBugs(bugs);
         }
     }
 }

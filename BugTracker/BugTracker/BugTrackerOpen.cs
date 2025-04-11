@@ -1,31 +1,27 @@
-﻿using BugTracker.Service;
+﻿using BugTracker.Domain;
+using BugTracker.Service;
 using log4net;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BugTracker
 {
-    public partial class BugTrackerOpen : Form
+    public partial class BugTrackerOpen : Form, IBugObserver
     {
         public BugTrackerOpen(MyService service)
         {
             this.service = service;
+            service.AddObserver(this);
             InitializeComponent();
-            loadBugs();
+            loadBugs(service.GetAllBugs());
         }
         private static readonly ILog log = LogManager.GetLogger(typeof(Program));
         MyService service;
 
-        private void loadBugs()
+        private void loadBugs(IEnumerable<Bug> bugs)
         {
-            dataGridView1.DataSource = service.GetAllBugs().ToList();
+            dataGridView1.DataSource = bugs;
             dataGridView1.Columns["Id"].Visible = false;
             dataGridView1.Columns["Status"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
             dataGridView1.Columns["Title"].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
@@ -35,7 +31,7 @@ namespace BugTracker
             dataGridView1.ReadOnly = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CreateNewBugClick(object sender, EventArgs e)
         {
             string title = textBoxTitle.Text.Trim();
             string description = textBoxDescription.Text.Trim();
@@ -48,8 +44,6 @@ namespace BugTracker
             try
             {
                 var bug = service.CreateNewBug(title, description);
-
-                loadBugs();
 
                 textBoxTitle.Clear();
                 textBoxDescription.Clear();
@@ -64,7 +58,7 @@ namespace BugTracker
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void LogoutClick(object sender, EventArgs e)
         {
             service.LogOut();
             this.Hide();
@@ -73,6 +67,11 @@ namespace BugTracker
                 loginForm.ShowDialog();
             }
             this.Close();
+        }
+
+        void IBugObserver.OnBugListChanged(IEnumerable<Bug> bugs)
+        {
+            loadBugs(bugs);
         }
     }
 }
