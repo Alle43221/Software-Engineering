@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Alle\\source\\repos\\BugTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\bugtrackeropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\bugtrackeropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\bugtrackerclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\bugtrackerclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\bugtrackerclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\bugtrackerclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\domain\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\domain\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\service\\myservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\service\\myservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\bugtrackeropen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\bugtrackeropen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\bugtrackeropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\bugtrackeropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|c:\\users\\alle\\source\\repos\\bugtracker\\bugtracker\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\bugtrackeropen.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\bugtrackeropen.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\bugtrackeropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\bugtrackeropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|C:\\Users\\Alle\\source\\repos\\BugTracker\\bugtracker\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91250E77-B977-48DF-8C59-0CDE9C214339}|BugTracker\\BugTracker.csproj|solutionrelative:bugtracker\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,91 +62,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Bug.cs",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\Domain\\Bug.cs",
+              "RelativeDocumentMoniker": "BugTracker\\Domain\\Bug.cs",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\Domain\\Bug.cs",
+              "RelativeToolTip": "BugTracker\\Domain\\Bug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:40:35.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BugTrackerClose.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerClose.cs",
+              "RelativeDocumentMoniker": "BugTracker\\BugTrackerClose.cs",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerClose.cs [Design]",
+              "RelativeToolTip": "BugTracker\\BugTrackerClose.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:08:51.302Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BugTrackerOpen.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.cs",
               "RelativeDocumentMoniker": "BugTracker\\BugTrackerOpen.cs",
               "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.cs [Design]",
               "RelativeToolTip": "BugTracker\\BugTrackerOpen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:37:12.204Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-24T15:37:12.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SignUp.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\SignUp.Designer.cs",
-              "RelativeDocumentMoniker": "BugTracker\\SignUp.Designer.cs",
-              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\SignUp.Designer.cs",
-              "RelativeToolTip": "BugTracker\\SignUp.Designer.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAewH0AAAAPAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MyService.cs",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\Service\\MyService.cs",
+              "RelativeDocumentMoniker": "BugTracker\\Service\\MyService.cs",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\Service\\MyService.cs",
+              "RelativeToolTip": "BugTracker\\Service\\MyService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwBsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:26:18.557Z",
+              "WhenOpened": "2025-03-26T08:21:19.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BugTrackerOpen.resx",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.resx",
+              "RelativeDocumentMoniker": "BugTracker\\BugTrackerOpen.resx",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.resx",
+              "RelativeToolTip": "BugTracker\\BugTrackerOpen.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-26T08:30:24.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BugTrackerClose.cs",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerClose.cs",
+              "RelativeDocumentMoniker": "BugTracker\\BugTrackerClose.cs",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerClose.cs",
+              "RelativeToolTip": "BugTracker\\BugTrackerClose.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAEwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:06:19.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "BugTrackerOpen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.Designer.cs",
+              "RelativeDocumentMoniker": "BugTracker\\BugTrackerOpen.Designer.cs",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.Designer.cs",
+              "RelativeToolTip": "BugTracker\\BugTrackerOpen.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:30:15.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.cs",
+              "RelativeDocumentMoniker": "BugTracker\\LogIn.cs",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.cs",
+              "RelativeToolTip": "BugTracker\\LogIn.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAjwCEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:36:08.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BugTrackerOpen.cs",
+              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.cs",
+              "RelativeDocumentMoniker": "BugTracker\\BugTrackerOpen.cs",
+              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\BugTrackerOpen.cs",
+              "RelativeToolTip": "BugTracker\\BugTrackerOpen.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:09:07.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SignUp.cs",
               "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\SignUp.cs",
               "RelativeDocumentMoniker": "BugTracker\\SignUp.cs",
               "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\SignUp.cs",
               "RelativeToolTip": "BugTracker\\SignUp.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAewBMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:26:12.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T08:20:57.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "SignUp.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\SignUp.cs",
               "RelativeDocumentMoniker": "BugTracker\\SignUp.cs",
               "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\SignUp.cs [Design]",
               "RelativeToolTip": "BugTracker\\SignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:25:30.604Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LogIn.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.Designer.cs",
-              "RelativeDocumentMoniker": "BugTracker\\LogIn.Designer.cs",
-              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.Designer.cs",
-              "RelativeToolTip": "BugTracker\\LogIn.Designer.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAewEsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:08:32.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.cs",
-              "RelativeDocumentMoniker": "BugTracker\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.cs",
-              "RelativeToolTip": "BugTracker\\LogIn.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAMwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:08:23.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LogIn.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.cs",
-              "RelativeDocumentMoniker": "BugTracker\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Alle\\source\\repos\\BugTracker\\BugTracker\\LogIn.cs [Design]",
-              "RelativeToolTip": "BugTracker\\LogIn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:03:13.688Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-26T08:20:54.681Z"
             }
           ]
         }
