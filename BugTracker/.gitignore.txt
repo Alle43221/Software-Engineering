@@ -1,0 +1,19 @@
+# Ignore all Visual Studio and build-related files
+.vs/
+*.suo
+*.user
+*.db
+*.cache
+*.vsidx
+*.json
+*.csproj.AssemblyReference.cache
+obj/
+bin/
+*.exe
+*.pdb
+*.dll
+
+# Ignore specific folders you mentioned
+../SGBDSem2/.vs/
+../SGBDSem2/SGBDSem2/obj/
+../WinFormsApp1/
